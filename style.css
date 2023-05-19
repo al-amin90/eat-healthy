@@ -9,16 +9,39 @@
 
 .half-width img {
     width: 90%;
-    padding-left: 2%;
+    padding-right: 3%;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
+    color: rgba(87, 87, 87, 1);
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 700;
 }
 
-#text-div_1 {}
+#bottom-small-space {
+    margin-bottom: 50px;
+}
+
+#text-div_1 {
+    margin-top: 100px;
+    padding-left: 70px;
+}
+
+.gradiant-button {
+    padding: 15px 35px;
+    background-image: linear-gradient(rgba(251, 162, 79, 1), rgba(255, 30, 30, 1));
+    text-decoration: none;
+    border-radius: 50px;
+    color: white;
+}
+
+.gradiant-text {
+    background-image: linear-gradient(rgba(251, 162, 79, 1), rgba(255, 30, 30, 1));
+    width: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
